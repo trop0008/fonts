@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Open+Sans:400,700');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,18 +8,18 @@
 html{
     font-size: 16px;
     line-height: 1.6;
-    font-family: sans-serif;
+    font-family: 'Open Sans', Arial , Helvetica , sans-serif;
 }
 html,body{
     background-color: #d4d4d4;
 }
 h1{
-    font-family: serif;
+    font-family: 'Libre Baskerville', Georgia , serif;
     font-size: 3.998rem;
     padding:1rem 2rem;
 }
 h2{
-    font-family: serif;
+    font-family: 'Libre Baskerville', Georgia , serif;
     font-size: 2.827rem;
     padding:1rem 2rem;
 }
@@ -36,7 +38,7 @@ nav li>a{
     color: #999;
 }
 nav li>a:hover,
-nav li>a:active{
+nav li>a:active , #activelink {
     color: #222;
 }
 p{
